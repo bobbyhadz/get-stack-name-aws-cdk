@@ -1,8 +1,7 @@
-# Article name here
+# How to get Stack Name in AWS CDK
 
 A repository for an article on
-[bobbyhadz.com](https://bobbyhadz.com/blog/aws-s3-presigned-url-react)
-`<- Update Link`
+[bobbyhadz.com](https://bobbyhadz.com/blog/get-stack-name-aws-cdk)
 
 ## How to Use
 
@@ -14,17 +13,8 @@ A repository for an article on
 npm install
 ```
 
-3. Create the CDK stack
+3. Synthesize the stack to print the stack name
 
 ```bash
-npx cdk deploy
-```
-
-4. Open the AWS CloudFormation Console and the stack should be created in your
-   default region
-
-5. Cleanup
-
-```bash
-npx cdk destroy
+npx cdk synth
 ```
